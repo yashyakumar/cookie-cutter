@@ -1,13 +1,13 @@
 terraform {
   required_providers {
-    {{provider_name}} = {
-      source = "hashicorp/{{provider_name}}"
+    {{cookiecutter.provider_name}} = {
+      source = "hashicorp/{{cookiecutter.provider_name}}"
       version = "4.33.0"
     }
   }
 }
 
-provider "{{provider_name}}" {
+provider "{{cookiecutter.provider_name}}" {
   features {
     
   }
